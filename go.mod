@@ -1,8 +1,6 @@
 module github.com/gmeghnag/omc
 
-go 1.23.0
-
-toolchain go1.23.3
+go 1.24
 
 replace (
 	// - networking.ClusterCIDR is deprecated as of v1.29.0:
@@ -72,7 +70,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.4 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.24.0 // indirect
-	github.com/klauspost/compress v1.17.11 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/moby/term v0.5.0 // indirect
 	github.com/sagikazarmark/locafero v0.6.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
